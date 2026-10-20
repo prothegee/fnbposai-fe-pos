@@ -1,8 +1,8 @@
 {
   "version": "5",
   "specifiers": {
-    "npm:@angular/build@^22.2.3": "22.2.3_@angular+compiler@22.2.3_@angular+compiler-cli@22.2.3_@angular+core@22.2.3_@angular+platform-browser@22.2.3_@angular+platform-server@22.2.3_@angular+ssr@22.2.3_postcss@8.5.30_tailwindcss@4.3.3_tslib@2.8.1_typescript@6.0.3_vitest@5.0.5_@types+node@22.20.5_jsdom@30.1.3",
-    "npm:@angular/cli@^22.2.3": "22.2.3_@types+node@22.20.5",
+    "npm:@angular/build@^22.2.2": "22.2.3_@angular+compiler@22.2.3_@angular+compiler-cli@22.2.3_@angular+core@22.2.3_@angular+platform-browser@22.2.3_@angular+platform-server@22.2.3_@angular+ssr@22.2.3_postcss@8.5.31_tailwindcss@4.3.3_tslib@2.8.1_typescript@6.0.3_vitest@5.0.5_@types+node@22.20.5_jsdom@30.1.3",
+    "npm:@angular/cli@^22.2.2": "22.2.3_@types+node@22.20.5",
     "npm:@angular/common@^22.2.0": "22.2.3_@angular+core@22.2.3_rxjs@7.8.2_@angular+compiler@22.2.3",
     "npm:@angular/compiler-cli@^22.2.0": "22.2.3_@angular+compiler@22.2.3_typescript@6.0.3",
     "npm:@angular/compiler@^22.2.0": "22.2.3",
@@ -11,16 +11,16 @@
     "npm:@angular/platform-browser@^22.2.0": "22.2.3_@angular+common@22.2.3_@angular+core@22.2.3_@angular+compiler@22.2.3",
     "npm:@angular/platform-server@^22.2.0": "22.2.3_@angular+common@22.2.3_@angular+compiler@22.2.3_@angular+core@22.2.3_@angular+platform-browser@22.2.3_rxjs@7.8.2",
     "npm:@angular/router@^22.2.0": "22.2.3_@angular+common@22.2.3_@angular+core@22.2.3_@angular+platform-browser@22.2.3_rxjs@7.8.2_@angular+compiler@22.2.3",
-    "npm:@angular/ssr@^22.2.3": "22.2.3_@angular+common@22.2.3_@angular+core@22.2.3_@angular+platform-server@22.2.3_@angular+router@22.2.3_@angular+compiler@22.2.3",
-    "npm:@tailwindcss/postcss@^4.1.12": "4.3.3",
+    "npm:@angular/ssr@^22.2.2": "22.2.3_@angular+common@22.2.3_@angular+core@22.2.3_@angular+platform-server@22.2.3_@angular+router@22.2.3_@angular+compiler@22.2.3",
+    "npm:@tailwindcss/postcss@^4.3.3": "4.3.3",
     "npm:@types/express@^5.0.1": "5.0.6",
     "npm:@types/node@^22.12.0": "22.20.5",
     "npm:express@^5.1.0": "5.3.0",
     "npm:jsdom@30": "30.1.3",
-    "npm:postcss@^8.5.3": "8.5.30",
+    "npm:postcss@^8.5.31": "8.5.31",
     "npm:prettier@^3.8.1": "3.9.10",
     "npm:rxjs@7.8": "7.8.2",
-    "npm:tailwindcss@^4.1.12": "4.3.3",
+    "npm:tailwindcss@^4.3.3": "4.3.3",
     "npm:tslib@^2.3.0": "2.8.1",
     "npm:typescript@~6.0.2": "6.0.3",
     "npm:vitest@5": "5.0.5_@types+node@22.20.5_jsdom@30.1.3_vite@8.3.0_esbuild@0.28.2_sass@1.104.1_sass-embedded@1.104.1"
@@ -69,7 +69,7 @@
         "rxjs"
       ]
     },
-    "@angular/build@22.2.3_@angular+compiler@22.2.3_@angular+compiler-cli@22.2.3_@angular+core@22.2.3_@angular+platform-browser@22.2.3_@angular+platform-server@22.2.3_@angular+ssr@22.2.3_postcss@8.5.30_tailwindcss@4.3.3_tslib@2.8.1_typescript@6.0.3_vitest@5.0.5_@types+node@22.20.5_jsdom@30.1.3": {
+    "@angular/build@22.2.3_@angular+compiler@22.2.3_@angular+compiler-cli@22.2.3_@angular+core@22.2.3_@angular+platform-browser@22.2.3_@angular+platform-server@22.2.3_@angular+ssr@22.2.3_postcss@8.5.31_tailwindcss@4.3.3_tslib@2.8.1_typescript@6.0.3_vitest@5.0.5_@types+node@22.20.5_jsdom@30.1.3": {
       "integrity": "sha512-EtNEuPBUCyIuzdXrQ/nINvgFzW8bUI5AkAZtJiSn7nsFOlvaygaKN0kENNTO3zRl3T9B4GDog+Ks5Nec3FBkhg==",
       "dependencies": [
         "@ampproject/remapping",
@@ -244,8 +244,8 @@
         "@angular/platform-server"
       ]
     },
-    "@asamuzakjp/css-color@7.1.6": {
-      "integrity": "sha512-jZJUZX0mR6JqnjQGb79yTYbR5WXmACmcLoFSgZk+7W+0qMJ8jWGRp9ncYvE1ihwL3dwbmfeCe6/O0rRwWTko4g==",
+    "@asamuzakjp/css-color@7.1.7": {
+      "integrity": "sha512-Q7ioeear07HwixdIitIn9KS1LZi97CEDFCSjPNm9v+y8KNbsu9q4Lrd4zUQW4faED+E7qxvfeVnbNRW46wFKuw==",
       "dependencies": [
         "@csstools/css-calc",
         "@csstools/css-color-parser",
@@ -254,8 +254,8 @@
         "lru-cache"
       ]
     },
-    "@asamuzakjp/dom-selector@10.0.3": {
-      "integrity": "sha512-3+777rEPsOOjoy5/sRmIzHnoRDaLpm3XWY2dmWn/N7f/XwDG0bcpnFaKL3X9FYJUbNwLmpcJC1bUYexJRxsFlw==",
+    "@asamuzakjp/dom-selector@10.0.4": {
+      "integrity": "sha512-A6f1nKy99I6tyoK82U6kBHvQQZmdHmTmPzJYPY/0eaOW0r8/qPmEOwjGHs+hL/vCgOwQTupu4LT1XtXNUuDruA==",
       "dependencies": [
         "bidi-js",
         "css-tree",
@@ -569,14 +569,14 @@
     "@exodus/bytes@1.16.0": {
       "integrity": "sha512-IcpW84uEn3N7ETtNZMlxKhfl6Pec8rUNGOTBtWbK1FKhJxIFAptZyVrvVRVBimAJxJCgc3PxepxkdWWG4DVzfA=="
     },
-    "@harperfast/extended-iterable@1.0.3": {
-      "integrity": "sha512-sSAYhQca3rDWtQUHSAPeO7axFIUJOI6hn1gjRC5APVE1a90tuyT8f5WIgRsFhhWA7htNkju2veB9eWL6YHi/Lw=="
+    "@harperfast/extended-iterable@1.0.4": {
+      "integrity": "sha512-/ReTjp82KnBVOzqBgoJN70Lk1ltoyqf0dAwXpMlD3wvMt6/KDjMDpfhA7fR7uFFs9bal4ngORLUSk/Y938goNQ=="
     },
     "@inquirer/ansi@2.0.9": {
       "integrity": "sha512-0Ywt3S8tqM6TWUcsRlBFQ1x+X3/o8kktX0ZiKAnByYb9GFDknnOhse1PVtfiD2BXPI8ar+BWx9PV9R0lQIcygw=="
     },
-    "@inquirer/checkbox@5.2.6_@types+node@22.20.5": {
-      "integrity": "sha512-XkOardciF3tow2NUlY6/Qjk1QqYa+6WpmVLTpxXl97Uv4erczDEZ+xg1j6LqBf0ekcRSUiICQA4nQXHHkVKQ9w==",
+    "@inquirer/checkbox@5.2.7_@types+node@22.20.5": {
+      "integrity": "sha512-/+QmGE/9bvE/EobaZDnzYe+T+QWoJrnmxwBQNtoi2OVSUR9d1znYsNyEoUrOZvFSxDYttrhzRIpXpaLkN+iIsg==",
       "dependencies": [
         "@inquirer/ansi",
         "@inquirer/core",
@@ -599,8 +599,8 @@
         "@types/node"
       ]
     },
-    "@inquirer/core@12.0.4_@types+node@22.20.5": {
-      "integrity": "sha512-M5fB67y7jPObI45vhD82RskWwCSm0scOvenV/I6K8tIi2gfr9DXqQqJ+iw+Wi6SgapikdOiJibYzz1gW47fsDg==",
+    "@inquirer/core@12.0.5_@types+node@22.20.5": {
+      "integrity": "sha512-c0ZSnO9oVk/IlEGoZK3u8b3IZQeu9I6jUkXJSQnQEVRXsjKvtAq3AGqFL2LgfJhlzMZne08pZHWRWasIcI3Rew==",
       "dependencies": [
         "@inquirer/ansi",
         "@inquirer/figures",
@@ -615,8 +615,8 @@
         "@types/node"
       ]
     },
-    "@inquirer/editor@5.3.4_@types+node@22.20.5": {
-      "integrity": "sha512-imzxQDfw26NpcJAubMj/dE5RjU9Mp80IcT+FzsD6YoxXmL8L1QYnAFdCNv7ccGWh//73+0YP+1kfhwnExdl2VQ==",
+    "@inquirer/editor@5.3.5_@types+node@22.20.5": {
+      "integrity": "sha512-6lU3/pPx5z3lHWejFW061MV4qZooBQYv/+EeGhNOPiP/i+hrYsHfxxBnnDGsAfg8YdLUd69YckoeOjtr3QuAUg==",
       "dependencies": [
         "@inquirer/core",
         "@inquirer/external-editor",
@@ -627,8 +627,8 @@
         "@types/node"
       ]
     },
-    "@inquirer/expand@5.1.6_@types+node@22.20.5": {
-      "integrity": "sha512-JfiLKi7qGuHmcQO/DqR10UFEp054Y1FXZaszP5ZEfHhgHeuFoT5nNFQIXFhed/5/p07SbsV2tIJFwG/dg5+NmQ==",
+    "@inquirer/expand@5.1.7_@types+node@22.20.5": {
+      "integrity": "sha512-eiJ31YFCaB6fLoJCqLIn8S6eqUyME6vwr8KcP5h8cxmA+bV9RRVPO+kywoxb7G63HduDXV6sN/SM7o2R+ahEcQ==",
       "dependencies": [
         "@inquirer/core",
         "@inquirer/type@4.2.0_@types+node@22.20.5",
@@ -652,8 +652,8 @@
     "@inquirer/figures@2.0.9": {
       "integrity": "sha512-EAWgUTGQ/Umgga51dE3B2PUHbufuXarDfg86uVgoSgNHNNQnyFKcOrQLWVqYMghuSyHh8+2HUH0Js9cTC1WAdg=="
     },
-    "@inquirer/input@5.1.7_@types+node@22.20.5": {
-      "integrity": "sha512-Icrs9tuMBCxGI+lFYNO71VFOnqGO8IIrLIGqnTGh07X8jZ2la9QLAYxXcikHZQjjVhIZUtU2xyH89DVN/pPhVg==",
+    "@inquirer/input@5.1.8_@types+node@22.20.5": {
+      "integrity": "sha512-psOSTgkL8y/OtgJJYbqJ0oISr2QBE0U1Ro/qQdA/EKjeJiwiUTQgQmq8o4ESNzVOWthIeh3YLD7BCUR9dKnR5g==",
       "dependencies": [
         "@inquirer/core",
         "@inquirer/type@4.2.0_@types+node@22.20.5",
@@ -663,8 +663,8 @@
         "@types/node"
       ]
     },
-    "@inquirer/number@4.2.4_@types+node@22.20.5": {
-      "integrity": "sha512-C6g80U4U2+w2Vxa1CB0MN3a2WnQIfzLSUG0lduO3Au9GsirJsKATZkOwZPK+vZ1BlAlz+/Z5ParfQCS9E0svmg==",
+    "@inquirer/number@4.2.5_@types+node@22.20.5": {
+      "integrity": "sha512-lEy7LWsdF5qHx5QjHZqabUqM9P7i5uTMCt8GRzqxmwXXKbapKJDA+ucVflVVPAyj4snD5DTAD4L+sct85XOlOQ==",
       "dependencies": [
         "@inquirer/core",
         "@inquirer/type@4.2.0_@types+node@22.20.5",
@@ -674,8 +674,8 @@
         "@types/node"
       ]
     },
-    "@inquirer/password@5.2.3_@types+node@22.20.5": {
-      "integrity": "sha512-1Uo2qfI2K3wXbfunMpvwAzoZPIUf5iEETwDGqRVbswoorXGqYQJ/bfIJFeLj+pxjq+e2UFPNOmx+fsIl4Urigw==",
+    "@inquirer/password@5.2.4_@types+node@22.20.5": {
+      "integrity": "sha512-T7ir3fflSSVCYEVqNyMBq+pIMsilQRtbZcD5gxn6Ewsin5TJWBxrGBdXveWtmeXVAeoInfhS+BhBUZaL4sFSDg==",
       "dependencies": [
         "@inquirer/ansi",
         "@inquirer/core",
@@ -705,8 +705,8 @@
         "@types/node"
       ]
     },
-    "@inquirer/rawlist@5.3.6_@types+node@22.20.5": {
-      "integrity": "sha512-2exExhQ5xTBqfN/rRlZkvM1Gm3b0eiLcWe2NqxWxe7qYmnU4M3j/n9TwzfPUb+Q7dAAz9TmBtDWWdF3jbp4ZLA==",
+    "@inquirer/rawlist@5.3.7_@types+node@22.20.5": {
+      "integrity": "sha512-XveEe8v3BHj9ec00n+9i8FHjWhXjS6+jCTizYvXCqKUKtgkrq9xid8S5j3mYGW96qfxG3mwNoud3m3v8GDk9Pw==",
       "dependencies": [
         "@inquirer/core",
         "@inquirer/type@4.2.0_@types+node@22.20.5",
@@ -716,8 +716,8 @@
         "@types/node"
       ]
     },
-    "@inquirer/search@4.3.4_@types+node@22.20.5": {
-      "integrity": "sha512-xsk0UeFP04jsbEeFMzghjUaH2aHXyt+WykSajQzq/8qyBNHsgGYHea/sFwv5T08kW7Sp+KDX8aF124zPUIs1Ww==",
+    "@inquirer/search@4.3.5_@types+node@22.20.5": {
+      "integrity": "sha512-kIUecMugEN2YTvTmff+uYz0nAE0f9RFNDVZknfrh264vAQM9P8tnsXiUp7z8XbGuNIBEtFMJhvc9QquawpC46A==",
       "dependencies": [
         "@inquirer/core",
         "@inquirer/figures",
@@ -728,8 +728,8 @@
         "@types/node"
       ]
     },
-    "@inquirer/select@5.2.6_@types+node@22.20.5": {
-      "integrity": "sha512-jFu7CFghlr0vpi/326a4wz6BGkJH9X3H/iIu+ahyV2Ja52ktqQE3fC9BYP47JKeSPQYGUv5xquE2Vp9PbepZ3g==",
+    "@inquirer/select@5.2.7_@types+node@22.20.5": {
+      "integrity": "sha512-pRDWO4dTqSAvFQdO8yclKMtXNDm9K9HmvWB5UZmT3clw2OlOBNXveHzhyFmO/0d0yJMqlPcNITus1Jtpm6t8VQ==",
       "dependencies": [
         "@inquirer/ansi",
         "@inquirer/core",
@@ -1583,8 +1583,8 @@
     "assertion-error@2.0.1": {
       "integrity": "sha512-Izi8RQcffqCeNVgFigKli1ssklIbpHnCYc6AknXGYoB6grJqyeby7jv12JUQgmTAnIDnbck1uxksT4dzN3PWBA=="
     },
-    "baseline-browser-mapping@2.11.29": {
-      "integrity": "sha512-YeesxhUmR4h5y5V8KF8iBCqJb8YFrBJ++XBTeGcWIaQOYXGN19JM0FoiOjAhwuDoln8owMgXcWBmgHtYSkky2w==",
+    "baseline-browser-mapping@2.11.30": {
+      "integrity": "sha512-YJs6Pz17RMNv8HoyKREtCY38E3BV1nPkWVmIb+XN1uHC1Vqt3KZCH/uJH9ZKRoiKb/icZ6tvehyee6RZNbFfRA==",
       "bin": true
     },
     "beasties@0.5.4": {
@@ -1624,8 +1624,8 @@
     "boolbase@2.0.0": {
       "integrity": "sha512-DkVaaQHymRhpYEYo9x1oo7Q7B0Y6KJUsjm3c9eTyFDby4MHLBTwZ6ZDWBel5zrYxj1WsZgC5oLpiz+93MluXeA=="
     },
-    "browserslist@4.29.3": {
-      "integrity": "sha512-1R4kiYKXGViqEN0CnoDrXc1StD9niAwu+j2dukWzrD4bJgsD4lDmEp0CRbc6E/vYJIfTHwPmwyaKtVSudICdPA==",
+    "browserslist@4.29.4": {
+      "integrity": "sha512-2TcbbiwXEq+N0kD36tykpCfyyQigUXmuwNQbnPp4Xk4PX9JOqVIKjJlIDjpH7uY6tmRGoAd+apeT1p60T8wsdA==",
       "dependencies": [
         "baseline-browser-mapping",
         "caniuse-lite",
@@ -1655,8 +1655,8 @@
         "get-intrinsic"
       ]
     },
-    "caniuse-lite@1.0.30001816": {
-      "integrity": "sha512-+8Yx7BXCoqk6IF8yTicjfUR6D/ldJzdlsodlEOiOSPmhK844WIgk67/zIQaGAOxNkZyyvBlrRFnLvqKIoqbAFw=="
+    "caniuse-lite@1.0.30001817": {
+      "integrity": "sha512-uZ1JG80BwhtMalIAGPxPfmNhHyd/B/nTdr3hITWlRamSyAdUStP1Gop01e7SD5q6J90ixJvWDbvmiFVfDgn4bw=="
     },
     "chai@6.3.0": {
       "integrity": "sha512-XWAtwJ6OHO+tj0EKCs0Y2UamnyOxseZWltU4x2U2wh8g4AigdjwvtUjvLP2tqkA/avxHEtzxNaqGq/YGNwckKg=="
@@ -1799,8 +1799,8 @@
     "ee-first@1.1.1": {
       "integrity": "sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow=="
     },
-    "electron-to-chromium@1.5.458": {
-      "integrity": "sha512-/hIH2gRSmxrf4/X4Nw/t/Wc8PVS22l8/3HnWjWTWsTOM5dsnMUPZF/+u+yr3LqweNuTBJE1rq6qAQzKkZVwMfA=="
+    "electron-to-chromium@1.5.461": {
+      "integrity": "sha512-3WZFARz1By+/rYcqQ0OLj4UcEdhd6tz2LEcDtKBUq7ey77EeJ1OtetY/5hjSUxw7dC5r5mA7FfkhRbqO9vnTCg=="
     },
     "emoji-regex@10.6.0": {
       "integrity": "sha512-toUI84YS5YmxW219erniWD0CIVOo46xGKColeNQRgOzDorgBi1v4D71/OFzgD9GO2UGKIv1C3Sp8DAn0+j5w7A=="
@@ -1935,8 +1935,8 @@
         "fast-string-truncated-width"
       ]
     },
-    "fast-uri@3.1.8": {
-      "integrity": "sha512-GZMtZUTNRpOVIECoXwLNZS5xUGE+mVNbTB8h/7Rwh2TFWcBQiPzTgyZi05BF9UMZKkLJv8XBRJTlU7zg8+ZfMg=="
+    "fast-uri@3.1.9": {
+      "integrity": "sha512-hS/0Wt3Ya043oKXs0sIxrMpKQITXhMLIrVAKKXi4gozGC9v7YRWVnXIZzjNPTO02M9BdxLCWqK1yRXgNziVyJQ=="
     },
     "fast-wrap-ansi@0.2.2": {
       "integrity": "sha512-7F2Fl+TjRSenLqlU3UjSH0iyqopqoZIu7eZVpEirP2g1GtWa2G/ecEmBdgz31+Mxr+ELclgg6sokpSFIQiZ02Q==",
@@ -2513,8 +2513,8 @@
         "string-width@8.3.0"
       ]
     },
-    "ordered-binary@1.6.2": {
-      "integrity": "sha512-BY+qgDArmYpvvmij141xbkB4Cw8RFLBQM5Zj4MODFb1SyXBRE/xO4Xj/QWbR7aUEBxbkjuNdsFVCL2TmbYrlNg=="
+    "ordered-binary@1.6.3": {
+      "integrity": "sha512-Bc8LnA2x4ZHRQ9LjCm/NOdD3+CTQPhGNu8m7/6+ERtiB6Bb/fn7nCySwcmAC+5WCqwelpSAQgo1VX9BGpsC0tQ=="
     },
     "oxc-parser@0.150.0": {
       "integrity": "sha512-zwajKw1GUa57IOdafIS7/yOObGF2NihwIfZfs5yJTRprMSkiwhWOc/k+n8bwnUPbHr2/XsjfBO8KyTPaW3VpWg==",
@@ -2584,14 +2584,14 @@
     "postcss-media-query-parser@0.2.3": {
       "integrity": "sha512-3sOlxmbKcSHMjlUXQZKQ06jOswE7oVkXPxmZdoB1r5l0q6gTFTQSHxNxOrCccElbW7dxNytifNEo8qidX2Vsig=="
     },
-    "postcss-safe-parser@7.1.0_postcss@8.5.30": {
+    "postcss-safe-parser@7.1.0_postcss@8.5.31": {
       "integrity": "sha512-1WzZxRLaAFwEh6Do+zyGpjWV3nGJNxxhuh7Ubu/q1ICImMgZJnLwhoaEpRbG4pJppp2Y1ncL9ffA2f+LhrefQg==",
       "dependencies": [
         "postcss"
       ]
     },
-    "postcss@8.5.30": {
-      "integrity": "sha512-zkd+e9S1AQHhmaBKye9zlFHWjOwVgqXl1q3ECYy8561K7qxR2cREf/STLskulBFd78k6AOFeA+ff1TtEzk9bAA==",
+    "postcss@8.5.31": {
+      "integrity": "sha512-YUbWYCgErwnMAVkjUnYa+KlMBzGpHwiIt/DE7f0G33AuX2LH9UcTk6KgWxd3zRU+pN3u/C+Xl3EnMLM4Hea7Sg==",
       "dependencies": [
         "nanoid",
         "picocolors",
@@ -3068,13 +3068,13 @@
     "undici-types@6.21.0": {
       "integrity": "sha512-iwDZqg0QAGrg9Rav5H4n0M64c3mkR59cJ6wQp+7C4nI0gsmExaedaYLNO44eT4AtBBwjbTiGPMlt2Md0T9H9JQ=="
     },
-    "undici@8.12.2": {
-      "integrity": "sha512-XtuDWVdqTLr3NAxm2ly9/hU6kUsJOgGh1RASzMBbsw6aWCOaQzHdW+QQDfdERjfJ2V5vL5pRPa4RetO9UfivDg=="
+    "undici@8.12.3": {
+      "integrity": "sha512-+fdndUTwBP86cVjihTp21hZHo7d6oj1c/47XPA3lL8mM0XHs+C4EkcjmgRsFnFk2f/UONGDy9ItBItmXsLOQHw=="
     },
     "unpipe@1.0.0": {
       "integrity": "sha512-pjy2bYhSsufwWlKwPc+l3cN7+wuJlK6uz0YdJEOlQDbl6jo/YlPi4mb8agUkVC8BF7V8NuzeyPNqRksA3hztKQ=="
     },
-    "update-browserslist-db@1.3.4_browserslist@4.29.3": {
+    "update-browserslist-db@1.3.4_browserslist@4.29.4": {
       "integrity": "sha512-t8wonIOdQyOjtPd2VktlBu6QjTVTks6v8bSi7kd0r2Vll8TK1JYDZtRRdbmCHOAMphkZgrzK+L+vXK4pyZ8t4A==",
       "dependencies": [
         "browserslist",
@@ -3232,8 +3232,8 @@
   "workspace": {
     "packageJson": {
       "dependencies": [
-        "npm:@angular/build@^22.2.3",
-        "npm:@angular/cli@^22.2.3",
+        "npm:@angular/build@^22.2.2",
+        "npm:@angular/cli@^22.2.2",
         "npm:@angular/common@^22.2.0",
         "npm:@angular/compiler-cli@^22.2.0",
         "npm:@angular/compiler@^22.2.0",
@@ -3242,16 +3242,16 @@
         "npm:@angular/platform-browser@^22.2.0",
         "npm:@angular/platform-server@^22.2.0",
         "npm:@angular/router@^22.2.0",
-        "npm:@angular/ssr@^22.2.3",
-        "npm:@tailwindcss/postcss@^4.1.12",
+        "npm:@angular/ssr@^22.2.2",
+        "npm:@tailwindcss/postcss@^4.3.3",
         "npm:@types/express@^5.0.1",
         "npm:@types/node@^22.12.0",
         "npm:express@^5.1.0",
         "npm:jsdom@30",
-        "npm:postcss@^8.5.3",
+        "npm:postcss@^8.5.31",
         "npm:prettier@^3.8.1",
         "npm:rxjs@7.8",
-        "npm:tailwindcss@^4.1.12",
+        "npm:tailwindcss@^4.3.3",
         "npm:tslib@^2.3.0",
         "npm:typescript@~6.0.2",
         "npm:vitest@5"
