@@ -1,12 +1,17 @@
-import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Component, signal } from "@angular/core";
+import { RouterOutlet } from "@angular/router";
 
 @Component({
+  selector: "app-root",
   imports: [RouterOutlet],
-  selector: 'app-root',
-  styleUrl: './app.css',
-  templateUrl: './app.html',
+  template: `<router-outlet />`,
+  styles: `
+    :host {
+      display: block;
+      height: 100dvh;
+    }
+  `,
 })
 export class App {
-  protected readonly title = signal('fnbposai-fe-pos');
+  protected readonly title = signal("fnbposai-fe-pos");
 }
