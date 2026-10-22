@@ -1,16 +1,21 @@
-import { Component } from "@angular/core";
+import { Component, input } from "@angular/core";
 
 @Component({
   selector: "comp-or_divider",
   template: `
     <div class="or">
-      <span class="or-line"></span>
-      <span class="or-text">OR</span>
-      <span class="or-line"></span>
+      <span class="or-line" [class]="line_class()"></span>
+      <span class="or-text" [class]="class()">OR</span>
+      <span class="or-line" [class]="line_class()"></span>
     </div>
   `,
   styles: `
     @use "../../../styles/type" as type;
+
+    :host {
+      display: block;
+      width: 100%;
+    }
 
     .or {
       display: flex;
@@ -22,15 +27,17 @@ import { Component } from "@angular/core";
     .or-line {
       flex: 1 1 auto;
       height: 1px;
-      background: var(--c-line);
     }
 
     .or-text {
-      color: var(--c-slate-400);
       @include type.text(10.5px, 14px, center);
       font-weight: 600;
       letter-spacing: 0.4px;
     }
   `,
 })
-export class CompOrDivider {}
+export class CompOrDivider {
+  readonly class = input<string>("");
+
+  readonly line_class = input<string>("");
+}

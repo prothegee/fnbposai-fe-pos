@@ -1,4 +1,7 @@
 import { Component } from "@angular/core";
+import { RouterLink } from "@angular/router";
+import { CompInputField } from "@AppComponents/input_field/input_field";
+import { CompOrDivider } from "@AppComponents/or_divider/or_divider";
 
 /**
  * @brief Sign Up Tenant page component
@@ -7,11 +10,18 @@ import { Component } from "@angular/core";
  */
 @Component({
   selector: "page-sign_up-tenant",
-  imports: [],
-  template: ``,
-  styles: ``,
+  imports: [CompInputField, CompOrDivider, RouterLink],
+  templateUrl: `./sign-up-tenant.html`,
+  styleUrl: `./sign-up-tenant.scss`,
 })
 export class SignUpTenantPage {
   public static readonly TITLE = "Sign Up Tenant";
   public static readonly PATH = "sign-up/tenant";
+
+  constructor() {}
+
+  protected async onSubmit(event: Event): Promise<void> {
+    event.preventDefault();
+    alert("TODO: sign-up");
+  }
 }

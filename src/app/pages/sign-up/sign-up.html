@@ -22,7 +22,6 @@
         autocomplete="username"
         class="rounded-xl p-1 w-full min-h-12 max-w-120"
         label_class="absolute cursor-text bg-white px-1 left-4 -top-4 text-gray-600"
-
       />
       <comp-input_field
         [floating]="true"
@@ -41,7 +40,7 @@
         for="password1"
         type="password"
         name="password1"
-        label="verify your password"
+        label="verify password"
         autocomplete=""
         class="rounded-xl p-1 w-full min-h-12 max-w-120"
         label_class="absolute cursor-text bg-white px-1 left-4 -top-4 text-gray-600"
@@ -52,7 +51,10 @@
         <i class="bi bi-person-plus"></i> Sign Up
       </button>
 
-      <comp-or_divider />
+      <comp-or_divider
+        class="text-gray-400"
+        line_class="flex-1 h-px bg-gray-400 text-gray-400"
+      />
 
       <p class="auth-inline text-gray-600 text-center">
         Already have an account?

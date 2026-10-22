@@ -1,0 +1,94 @@
+<main class="tracking-wide flex items-center justify-center min-h-screen w-full p-4">
+  <div
+    class="
+    border rounded-xl flex flex-col md:flex-row w-full max-w-sm md:w-3/4 md:max-w-4xl
+    overflow-hidden min-h-150 md:min-h-200
+    "
+  >
+    <section class="hidden md:flex md:w-1/2 flex-col bg-blue-400 text-center">
+      <!-- <p>TODO: Left Side</p> -->
+    </section>
+
+    <form
+      class="flex-1 w-full md:w-1/2 p-8 md:p-12 flex flex-col items-center justify-center gap-y-6"
+      (submit)="onSubmit($event)"
+    >
+      <comp-input_field
+        [floating]="true"
+        id="email"
+        type="email"
+        name="email"
+        label="your email"
+        autocomplete="username"
+        class="rounded-xl p-1 w-full min-h-12 max-w-120"
+        label_class="absolute cursor-text bg-white px-1 left-4 -top-4 text-gray-600"
+      />
+      <comp-input_field
+        [floating]="true"
+        id="password"
+        for="password"
+        type="password"
+        name="password"
+        label="your password"
+        autocomplete="password"
+        class="rounded-xl p-1 w-full min-h-12 max-w-120"
+        label_class="absolute cursor-text bg-white px-1 left-4 -top-4 text-gray-600"
+      />
+      <comp-input_field
+        [floating]="true"
+        id="password1"
+        for="password1"
+        type="password"
+        name="password1"
+        label="verify password"
+        autocomplete=""
+        class="rounded-xl p-1 w-full min-h-12 max-w-120"
+        label_class="absolute cursor-text bg-white px-1 left-4 -top-4 text-gray-600"
+      />
+      <comp-input_field
+        [floating]="true"
+        id="tenant"
+        type="text"
+        name="tenant"
+        label="your brand name"
+        autocomplete="tenant"
+        class="rounded-xl p-1 w-full min-h-12 max-w-120"
+        label_class="absolute cursor-text bg-white px-1 left-4 -top-4 text-gray-600"
+      />
+      <comp-input_field
+        [floating]="true"
+        id="branch"
+        type="text"
+        name="branch"
+        label="your branch name"
+        autocomplete="branch"
+        class="rounded-xl p-1 w-full min-h-12 max-w-120"
+        label_class="absolute cursor-text bg-white px-1 left-4 -top-4 text-gray-600"
+      />
+      <button
+        class="rounded-xl border p-1 text-center w-full mt-4 min-h-12 max-w-120 hover:bg-slate-50"
+      >
+        <i class="bi bi-person-up"></i> Sign Up as Tenant
+      </button>
+
+      <comp-or_divider
+        class="text-gray-400"
+        line_class="flex-1 h-px bg-gray-400 text-gray-400"
+      />
+
+      <p class="auth-inline text-gray-600 text-center">
+        Already have an account?
+        <a routerLink="/sign-in" class="text-blue-400 pl-2">
+          <i class="bi bi-person-check"></i> Sign In
+        </a>
+      </p>
+
+      <a
+        routerLink="/sign-up/tenant"
+        class="rounded-xl border text-center w-full mt-4 min-h-12 hover:bg-slate-100"
+      >
+        <p class="relative top-2"><i class="bi bi-person-plus"></i> Register as User</p>
+      </a>
+    </form>
+  </div>
+</main>
