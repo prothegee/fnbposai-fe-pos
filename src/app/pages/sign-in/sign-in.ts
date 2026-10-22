@@ -1,4 +1,7 @@
-import { Component } from "@angular/core";
+import { Component, signal } from "@angular/core";
+import { RouterLink } from "@angular/router";
+import { CompInputField } from "@AppComponents/input_field/input_field";
+import { CompOrDivider } from "@AppComponents/or_divider/or_divider";
 
 /**
  * @brief Sign In page component
@@ -7,11 +10,20 @@ import { Component } from "@angular/core";
  */
 @Component({
   selector: "page-sign_in",
-  imports: [],
-  template: ``,
-  styles: ``,
+  imports: [CompInputField, CompOrDivider, RouterLink],
+  templateUrl: `./sign-in.html`,
+  styleUrl: `./sign-in.scss`,
 })
 export class SignInPage {
-  public static readonly TITLE = "Sign In";
-  public static readonly PATH = "sign-in";
+  static readonly TITLE = "Sign In";
+  static readonly PATH = "sign-in";
+
+  readonly busy = signal<boolean>(false);
+
+  constructor() {}
+
+  protected async onSubmit(event: Event): Promise<void> {
+    event.preventDefault();
+    alert("TODO: sign-in");
+  }
 }
