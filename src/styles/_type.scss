@@ -1,0 +1,34 @@
+@use "sass:math";
+
+// --------------------------------------------------------- //
+// type: one scale for the whole client, drawn in any browser.
+
+// A browser may put a floor under small text (Firefox has a minimum font
+// size). A declared size below that floor is raised to it, so the page would
+// draw larger than the design. Every small size is therefore asked for at the
+// floor and painted with a scale. The line box is declared in design pixels,
+// so the drawn block keeps the height the design draws.
+//
+// Always pick a size from this list for scale:
+//
+//   22px    a page title
+//   15px    a card value, the tenant name
+//   13.5px  a field value
+//   13px    a card title, an item name
+//   12.5px  a table cell, a nav label, a button, a subtitle
+//   12px    a sub line
+//   11.5px  a pill, a chip, a muted line
+//   11px    a meta line, a counter
+//   10.5px  a table header, a field label, a term
+//   10px    a small label
+//   9.5px   a note under a sub line
+//   9px     the menu label
+
+$floor: 15px;
+
+@mixin text($size, $line: 18px, $origin: left center) {
+  font-size: $floor;
+  line-height: $line;
+  transform: scale(#{math.div($size, $floor)});
+  transform-origin: $origin;
+}
