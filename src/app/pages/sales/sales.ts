@@ -12,10 +12,10 @@ import { Component } from "@angular/core";
   styles: ``,
 })
 export class SalesPage {
-  public static readonly TITLE = "Sales";
+  static readonly TITLE = "Sales";
   /**
    * @note `:it` is id_ref from tenant
    * and `:itb` is id_ref from tenant_branch
    */
-  public static readonly PATH = "sales/:it/:itb";
+  static readonly PATH = "sales/:it/:itb";
 }

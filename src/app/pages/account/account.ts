@@ -12,6 +12,6 @@ import { Component } from "@angular/core";
   styles: ``,
 })
 export class AccountPage {
-  public static readonly TITLE = "Account";
-  public static readonly PATH = "account";
+  static readonly TITLE = "Account";
+  static readonly PATH = "account";
 }
