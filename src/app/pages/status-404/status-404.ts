@@ -22,5 +22,5 @@ import { Component } from "@angular/core";
   `,
 })
 export class Status404 {
-  public static readonly TITLE = "404";
+  static readonly TITLE = "404";
 }

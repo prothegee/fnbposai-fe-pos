@@ -12,6 +12,6 @@ import { Component } from "@angular/core";
   styles: ``,
 })
 export class SignOutPage {
-  public static readonly TITLE = "Sign Out";
-  public static readonly PATH = "sign-out";
+  static readonly TITLE = "Sign Out";
+  static readonly PATH = "sign-out";
 }

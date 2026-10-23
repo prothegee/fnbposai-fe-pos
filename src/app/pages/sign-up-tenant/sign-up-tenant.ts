@@ -15,8 +15,8 @@ import { CompOrDivider } from "@AppComponents/or_divider/or_divider";
   styleUrl: `./sign-up-tenant.scss`,
 })
 export class SignUpTenantPage {
-  public static readonly TITLE = "Sign Up Tenant";
-  public static readonly PATH = "sign-up/tenant";
+  static readonly TITLE = "Sign Up Tenant";
+  static readonly PATH = "sign-up/tenant";
 
   constructor() {}
 

@@ -12,10 +12,10 @@ import { Component } from "@angular/core";
   styles: ``,
 })
 export class MonitorKibaPage {
-  public static readonly TITLE = "Monitor Kitchen & Bar";
+  static readonly TITLE = "Monitor Kitchen & Bar";
   /**
    * @note `:it` is id_ref from tenant
    * and `:itb` is id_ref from tenant_branch
    */
-  public static readonly PATH = "monitor/:it/:itb/kiba";
+  static readonly PATH = "monitor/:it/:itb/kiba";
 }

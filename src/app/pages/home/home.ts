@@ -10,6 +10,6 @@ import { Component } from "@angular/core";
   styles: ``,
 })
 export class HomePage {
-  public static readonly TITLE = "Home";
-  public static readonly PATH = "";
+  static readonly TITLE = "Home";
+  static readonly PATH = "";
 }
